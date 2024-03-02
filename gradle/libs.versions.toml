@@ -1,0 +1,105 @@
+[versions]
+compileSdk = "34"
+minSdk = "26"
+targetSdk = "34"
+versionName = "1.0.0"
+versionCode = "1"
+kotlinCompilerExtensionVersion = "1.5.3"
+
+coil = "2.5.0"
+navigationUiKtx = "2.7.6"
+constraintlayout = "2.1.4"
+epoxy = "5.1.4"
+koinAndroid = "3.5.3"
+biometric = "1.2.0-alpha05"
+material3 = "1.2.0-alpha01"
+playServicesAds = "22.6.0"
+accompanist-navigation-animation = "0.33.1-alpha"
+accompanist-permissions = "0.32.0"
+activity-compose = "1.8.2"
+androidx-junit = "1.1.5"
+androidx-material3 = "1.2.0-beta02"
+animation = "1.6.0"
+appcompat = "1.6.1"
+camera-camera2 = "1.4.0-alpha02"
+camera-camera2-mlkit = "1.4.0-alpha02"
+coil-compose = "2.4.0"
+datastore-preferences = "1.0.0"
+espresso-core = "3.5.1"
+foundation = "1.6.0"
+google-material = "1.9.0"
+junit = "4.13.2"
+kotlinx-coroutines-core = "1.7.3"
+ktx = "1.12.0"
+lifecycle-runtime-ktx = "2.7.0"
+material = "1.6.0"
+navigation-compose = "2.7.6"
+room-runtime = "2.6.1"
+agp = "8.2.1"
+org-jetbrains-kotlin-android = "1.9.10"
+com-google-android-material-material = "1.11.0"
+com-google-devtools-ksp = "1.9.0-1.0.13"
+runtime = "1.6.0"
+ui = "1.6.0"
+retrofit = "2.9.0"
+[libraries]
+
+accompanist-navigation-animation = { module = "com.google.accompanist:accompanist-navigation-animation", version.ref = "accompanist-navigation-animation" }
+accompanist-permissions = { module = "com.google.accompanist:accompanist-permissions", version.ref = "accompanist-permissions" }
+
+androidx-appcompat = { module = "androidx.appcompat:appcompat", version.ref = "appcompat" }
+androidx-biometric = { module = "androidx.biometric:biometric", version.ref = "biometric" }
+androidx-camera-camera2 = { module = "androidx.camera:camera-camera2", version.ref = "camera-camera2" }
+androidx-camera-extensions = { module = "androidx.camera:camera-extensions", version.ref = "camera-camera2" }
+androidx-camera-lifecycle = { module = "androidx.camera:camera-lifecycle", version.ref = "camera-camera2" }
+androidx-camera-mlkit-vision = { module = "androidx.camera:camera-mlkit-vision", version.ref = "camera-camera2-mlkit" }
+androidx-camera-view = { module = "androidx.camera:camera-view", version.ref = "camera-camera2" }
+androidx-constraintlayout = { module = "androidx.constraintlayout:constraintlayout", version.ref = "constraintlayout" }
+androidx-datastore-preferences = { module = "androidx.datastore:datastore-preferences", version.ref = "datastore-preferences" }
+androidx-espresso-core = { module = "androidx.test.espresso:espresso-core", version.ref = "espresso-core" }
+
+androidx-foundation = { module = "androidx.compose.foundation:foundation", version.ref = "foundation" }
+androidx-junit = { module = "androidx.test.ext:junit", version.ref = "androidx-junit" }
+androidx-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "ktx" }
+androidx-lifecycle-runtime-compose = { module = "androidx.lifecycle:lifecycle-runtime-compose", version.ref = "lifecycle-runtime-ktx" }
+androidx-lifecycle-runtime-ktx = { module = "androidx.lifecycle:lifecycle-runtime-ktx", version.ref = "lifecycle-runtime-ktx" }
+androidx-lifecycle-viewmodel-ktx = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "lifecycle-runtime-ktx" }
+androidx-material = { module = "androidx.compose.material:material", version.ref = "material" }
+androidx-navigation-compose = { module = "androidx.navigation:navigation-compose", version.ref = "navigation-compose" }
+androidx-navigation-fragment-ktx = { module = "androidx.navigation:navigation-fragment-ktx", version.ref = "navigation-compose" }
+androidx-runtime = { module = "androidx.compose.runtime:runtime", version.ref = "runtime" }
+androidx-ui = { module = "androidx.compose.ui:ui", version.ref = "ui" }
+androidx-ui-tooling-preview = { module = "androidx.compose.ui:ui-tooling-preview", version.ref = "ui" }
+androidx-ui-graphics = { module = "androidx.compose.ui:ui-graphics", version.ref = "ui" }
+androidx-activity-compose = { module = "androidx.activity:activity-compose", version.ref = "activity-compose" }
+androidx-animation = { module = "androidx.compose.animation:animation", version.ref = "animation" }
+coil = { module = "io.coil-kt:coil", version.ref = "coil" }
+converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "retrofit" }
+epoxy = { module = "com.airbnb.android:epoxy", version.ref = "epoxy" }
+epoxy-processor = { module = "com.airbnb.android:epoxy-processor", version.ref = "epoxy" }
+koin-android = { module = "io.insert-koin:koin-android", version.ref = "koinAndroid" }
+koin-androidx-compose = { module = "io.insert-koin:koin-androidx-compose", version.ref = "koinAndroid" }
+material3 = { module = "androidx.compose.material3:material3", version.ref = "androidx-material3" }
+
+androidx-room-compiler = { module = "androidx.room:room-compiler", version.ref = "room-runtime" }
+androidx-room-ktx = { module = "androidx.room:room-ktx", version.ref = "room-runtime" }
+androidx-room-paging = { module = "androidx.room:room-paging", version.ref = "room-runtime" }
+androidx-room-runtime = { module = "androidx.room:room-runtime", version.ref = "room-runtime" }
+
+coil-compose = { module = "io.coil-kt:coil-compose", version.ref = "coil-compose" }
+junit = { module = "junit:junit", version.ref = "junit" }
+kotlinx-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "kotlinx-coroutines-core" }
+kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "kotlinx-coroutines-core" }
+material = { group = "com.google.android.material", name = "material", version.ref = "com-google-android-material-material" }
+navigation-ui-ktx = { module = "androidx.navigation:navigation-ui-ktx", version.ref = "navigationUiKtx" }
+play-services-ads = { module = "com.google.android.gms:play-services-ads", version.ref = "playServicesAds" }
+
+retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
+[plugins]
+com-android-library = { id = "com.android.library", version.ref = "agp" }
+org-jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "org-jetbrains-kotlin-android" }
+com-google-devtools-ksp = { id = "com.google.devtools.ksp", version.ref = "com-google-devtools-ksp" }
+
+
+[bundles]
+
